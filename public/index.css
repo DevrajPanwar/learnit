@@ -1,0 +1,11 @@
+.jumbotron {
+			background: url("https://pacificoadventure.com/wp-content/uploads/2013/08/4-Steps-to-Create-the-Ultimate-Promotion-Plan-For-Tourism-Company.jpg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+}
+.up{
+	color:black;
+	text-shadow: 0px 6px 6px #000000, 0px 0px 4px #0062cc, 0px -9px 32px #1d2124;
+	font-family: 'Dancing Script', cursive;color: white;
+}

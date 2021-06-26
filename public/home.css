@@ -1,0 +1,37 @@
+body{
+	background: url(https://www.lifehacker.com.au/content/uploads/sites/4/2013/09/Hiking.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:4em;
+}
+html{
+	height: 100%;
+}
+#content{
+	text-align: center;
+	float: left;
+	padding-top: 10%;
+	text-shadow: 0px 4px 3px #fffffffc, 0px 8px 13px #1078e7, 0px 18px 23px #37d25a;
+	font-family: 'Dancing Script', cursive;color: white;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+	color: black;
+
+}
+h2{
+	color: black;
+}
+a{
+	text-shadow:none;
+}
+hr{
+
+	min-width: 400px;
+	width: 20%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}

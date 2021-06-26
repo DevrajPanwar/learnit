@@ -1,0 +1,35 @@
+<%- include("partial/header")%>
+
+<div id="new" class="ui main text container segment">
+	<div class="ui huge header">Add Question</div>
+	<form class="ui form" action="/blogs/blog/<%= blog._id %>/quiz" method="POST">
+		<div class = "field">
+			<label>Description</label>
+			<input type="text" name="ques[description]" placeholder="description">
+		</div>
+		<div class = "field">
+			<label>Option 1</label>
+			<input type="text" name="ques[text]" placeholder="Option 1">
+            <input type="checkbox" name="ques[isCorrect]" placeholder="image url" value="true">
+            <label for="true">Correct</label><br>
+    
+            <label>Option 2</label>
+			<input type="text" name="ques[text]" placeholder="Option 2">
+            <input type="checkbox" name="ques[isCorrect]" placeholder="image url" value="true">
+            <label for="true">Correct</label><br>
+
+            <label>Option 3</label>
+			<input type="text" name="ques[text]" placeholder="Option 3">
+            <input type="checkbox" name="ques[isCorrect]" placeholder="image url" value="true">
+            <label for="true">Correct</label><br>
+
+            <label>Option 4</label>
+			<input type="text" name="ques[text]" placeholder="Option 4">
+            <input type="checkbox" name="ques[isCorrect]" placeholder="image url" value="true">
+            <label for="true">Correct</label><br>
+
+		</div>
+		<input class="ui blue inverted button" type="submit">
+	</form>
+</div>
+<%- include("partial/footer")%>
